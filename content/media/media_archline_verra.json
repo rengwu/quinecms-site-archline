@@ -3,21 +3,21 @@
   "id": "media_archline_verra",
   "name": "Verra",
   "original": {
-    "key": "archline/v1/verra.webp",
-    "url": "/archline/v1/verra.webp",
-    "mime": "image/webp",
     "bytes": 373126,
-    "width": 2000,
-    "height": 1334
+    "height": 1334,
+    "key": "archline/v1/verra.webp",
+    "mime": "image/webp",
+    "url": "/archline/v1/verra.webp",
+    "width": 2000
   },
   "variants": [
     {
-      "key": "archline/v1/verra-800.webp",
-      "url": "/archline/v1/verra-800.webp",
-      "mime": "image/webp",
       "bytes": 53642,
-      "width": 800,
-      "height": 534
+      "height": 534,
+      "key": "archline/v1/verra-800.webp",
+      "mime": "image/webp",
+      "url": "/archline/v1/verra-800.webp",
+      "width": 800
     }
   ]
 }

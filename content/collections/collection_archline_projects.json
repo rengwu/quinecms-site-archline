@@ -1,17 +1,10 @@
 {
-  "formatVersion": 1,
-  "id": "collection_archline_projects",
-  "name": "Archline Projects",
-  "mode": "many",
-  "titleField": "title",
-  "path": "/projects",
-  "genericPageId": "page_archline_project",
   "fields": [
     {
       "key": "title",
       "label": "Project title",
-      "type": "text",
-      "required": true
+      "required": true,
+      "type": "text"
     },
     {
       "key": "year",
@@ -26,9 +19,7 @@
     {
       "key": "metadata",
       "label": "Header facts",
-      "type": "array",
       "of": {
-        "type": "object",
         "fields": [
           {
             "key": "label",
@@ -40,21 +31,21 @@
             "label": "Value",
             "type": "text"
           }
-        ]
-      }
+        ],
+        "type": "object"
+      },
+      "type": "array"
     },
     {
       "key": "description",
       "label": "Project summary",
-      "type": "text",
-      "multiline": true
+      "multiline": true,
+      "type": "text"
     },
     {
       "key": "facts",
       "label": "Project facts",
-      "type": "array",
       "of": {
-        "type": "object",
         "fields": [
           {
             "key": "label",
@@ -66,15 +57,15 @@
             "label": "Value",
             "type": "text"
           }
-        ]
-      }
+        ],
+        "type": "object"
+      },
+      "type": "array"
     },
     {
       "key": "chapters",
       "label": "Story chapters",
-      "type": "array",
       "of": {
-        "type": "object",
         "fields": [
           {
             "key": "title",
@@ -89,18 +80,18 @@
           {
             "key": "description",
             "label": "Chapter text",
-            "type": "text",
-            "multiline": true
+            "multiline": true,
+            "type": "text"
           }
-        ]
-      }
+        ],
+        "type": "object"
+      },
+      "type": "array"
     },
     {
       "key": "gallery",
       "label": "Gallery images",
-      "type": "array",
       "of": {
-        "type": "object",
         "fields": [
           {
             "key": "image",
@@ -112,8 +103,17 @@
             "label": "Caption",
             "type": "text"
           }
-        ]
-      }
+        ],
+        "type": "object"
+      },
+      "type": "array"
     }
-  ]
+  ],
+  "formatVersion": 1,
+  "genericPageId": "page_archline_project",
+  "id": "collection_archline_projects",
+  "mode": "many",
+  "name": "Archline Projects",
+  "path": "/projects",
+  "titleField": "title"
 }

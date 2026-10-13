@@ -3,21 +3,21 @@
   "id": "media_archline_detail",
   "name": "Detail",
   "original": {
-    "key": "archline/v1/detail.webp",
-    "url": "/archline/v1/detail.webp",
-    "mime": "image/webp",
     "bytes": 167742,
-    "width": 2400,
-    "height": 1356
+    "height": 1356,
+    "key": "archline/v1/detail.webp",
+    "mime": "image/webp",
+    "url": "/archline/v1/detail.webp",
+    "width": 2400
   },
   "variants": [
     {
-      "key": "archline/v1/detail-800.webp",
-      "url": "/archline/v1/detail-800.webp",
-      "mime": "image/webp",
       "bytes": 25086,
-      "width": 800,
-      "height": 452
+      "height": 452,
+      "key": "archline/v1/detail-800.webp",
+      "mime": "image/webp",
+      "url": "/archline/v1/detail-800.webp",
+      "width": 800
     }
   ]
 }

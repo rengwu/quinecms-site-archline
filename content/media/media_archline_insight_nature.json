@@ -3,21 +3,21 @@
   "id": "media_archline_insight_nature",
   "name": "Insight Nature",
   "original": {
-    "key": "archline/v1/insight-nature.webp",
-    "url": "/archline/v1/insight-nature.webp",
-    "mime": "image/webp",
     "bytes": 236816,
-    "width": 2400,
-    "height": 1600
+    "height": 1600,
+    "key": "archline/v1/insight-nature.webp",
+    "mime": "image/webp",
+    "url": "/archline/v1/insight-nature.webp",
+    "width": 2400
   },
   "variants": [
     {
-      "key": "archline/v1/insight-nature-800.webp",
-      "url": "/archline/v1/insight-nature-800.webp",
-      "mime": "image/webp",
       "bytes": 53728,
-      "width": 800,
-      "height": 533
+      "height": 533,
+      "key": "archline/v1/insight-nature-800.webp",
+      "mime": "image/webp",
+      "url": "/archline/v1/insight-nature-800.webp",
+      "width": 800
     }
   ]
 }

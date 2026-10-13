@@ -1,25 +1,16 @@
 {
-  "formatVersion": 1,
-  "id": "page_archline_projects",
-  "kind": "static",
-  "path": "/projects",
-  "title": "Projects",
   "blocks": [
     {
       "id": "archline-project-index",
-      "type": "archline-project-index",
-      "version": 1,
       "props": {
-        "anchor": "",
-        "label": "",
-        "heading": "Places made for living, and designed to endure.",
-        "description": "Explore our portfolio of homes, interiors and spaces for gathering. Each project begins with its own context and finds a distinct architectural expression.",
         "actionLabel": "",
         "actionURL": "",
+        "anchor": "",
         "collection": "collection_archline_projects",
-        "titleField": "title",
-        "summaryField": "year",
+        "description": "Explore our portfolio of homes, interiors and spaces for gathering. Each project begins with its own context and finds a distinct architectural expression.",
+        "heading": "Places made for living, and designed to endure.",
         "imageField": "image",
+        "label": "",
         "projects": [
           {
             "_rowId": "row-1",
@@ -45,33 +36,42 @@
             "_rowId": "row-6",
             "project": "entry_archline_06_luma"
           }
-        ]
-      }
+        ],
+        "summaryField": "year",
+        "titleField": "title"
+      },
+      "type": "archline-project-index",
+      "version": 1
     },
     {
       "id": "archline-index-enquiry",
-      "type": "archline-enquiry",
-      "version": 1,
       "props": {
+        "actionLabel": "Send us an enquiry",
+        "actionURL": "mailto:hello@archiline.studio",
         "anchor": "contact",
-        "brand": "ARCHLINE\u00ae",
-        "tagline": "Interior & Architecture Studio",
         "background": {
-          "mediaId": "media_archline_enquiry",
-          "alt": "Warm timber kitchen and living space"
+          "alt": "Warm timber kitchen and living space",
+          "mediaId": "media_archline_enquiry"
         },
+        "brand": "ARCHLINE®",
+        "description": "Tell us about the place you imagine. We would love to help you bring it into focus.",
+        "heading": "Let’s Create Together",
         "image": {
-          "mediaId": "media_archline_overview",
-          "alt": "Architectural study of light, volume and material"
+          "alt": "Architectural study of light, volume and material",
+          "mediaId": "media_archline_overview"
         },
         "leftMark": "18",
         "rightMark": "25",
-        "heading": "Let\u2019s Create Together",
-        "description": "Tell us about the place you imagine. We would love to help you bring it into focus.",
-        "actionLabel": "Send us an enquiry",
-        "actionURL": "mailto:hello@archiline.studio"
-      }
+        "tagline": "Interior & Architecture Studio"
+      },
+      "type": "archline-enquiry",
+      "version": 1
     }
   ],
-  "layoutId": "layout_archline"
+  "formatVersion": 1,
+  "id": "page_archline_projects",
+  "kind": "static",
+  "layoutId": "layout_archline",
+  "path": "/projects",
+  "title": "Projects"
 }

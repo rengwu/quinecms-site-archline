@@ -1,25 +1,36 @@
 {
+  "collectionId": "collection_archline_projects",
   "formatVersion": 1,
   "id": "entry_archline_05_terra",
-  "collectionId": "collection_archline_projects",
   "slug": "terra-nova-residence",
   "values": {
-    "title": "Terra Nova Residence",
-    "year": "2024–2028",
-    "image": {
-      "mediaId": "media_archline_terra",
-      "alt": "Minimal architectural spaces and tactile surfaces"
-    },
-    "metadata": [
+    "chapters": [
       {
         "_rowId": "row-1",
-        "label": "Client",
-        "value": "Private client"
+        "description": "The design begins with a simple idea: make the experience of moving through a space feel natural. Openings connect rooms with their surroundings, while changes in scale create a gentle rhythm between shared areas and quieter corners.\n\nDaylight is treated as a material in its own right. Its movement across walls and floors gives the architecture a different character throughout the day.",
+        "image": {
+          "alt": "Minimal architectural spaces and tactile surfaces",
+          "mediaId": "media_archline_terra"
+        },
+        "title": "Project Overview"
       },
       {
         "_rowId": "row-2",
-        "label": "Collection",
-        "value": "Architecture & interiors"
+        "description": "A restrained palette brings the different spaces together. Warm timber, textured surfaces and clear structural lines offer a balance of precision and softness.\n\nThe arrangement of each room considers its purpose, the views beyond it and the relationship between people, furniture and the building.",
+        "image": {
+          "alt": "Open timber interior facing a planted courtyard",
+          "mediaId": "media_archline_interior"
+        },
+        "title": "Design Approach"
+      },
+      {
+        "_rowId": "row-3",
+        "description": "Careful junctions and well-proportioned elements give the interior its sense of ease. Light is placed to reveal texture, and furnishings leave space for the architecture to breathe.\n\nThese smaller decisions support a coherent whole: a place with enough character to feel memorable, and enough simplicity to welcome everyday life.",
+        "image": {
+          "alt": "Close-up of a sculptural leather seat",
+          "mediaId": "media_archline_service_form"
+        },
+        "title": "Details"
       }
     ],
     "description": "Terra Nova Residence explores the relationship between everyday living and the architecture around it. A considered arrangement of spaces makes room for natural light, comfortable movement and moments of quiet. This reference-inspired concept study brings together a restrained palette and a warm, human approach.",
@@ -45,60 +56,49 @@
         "value": "Landscape & living"
       }
     ],
-    "chapters": [
-      {
-        "_rowId": "row-1",
-        "title": "Project Overview",
-        "image": {
-          "mediaId": "media_archline_terra",
-          "alt": "Minimal architectural spaces and tactile surfaces"
-        },
-        "description": "The design begins with a simple idea: make the experience of moving through a space feel natural. Openings connect rooms with their surroundings, while changes in scale create a gentle rhythm between shared areas and quieter corners.\n\nDaylight is treated as a material in its own right. Its movement across walls and floors gives the architecture a different character throughout the day."
-      },
-      {
-        "_rowId": "row-2",
-        "title": "Design Approach",
-        "image": {
-          "mediaId": "media_archline_interior",
-          "alt": "Open timber interior facing a planted courtyard"
-        },
-        "description": "A restrained palette brings the different spaces together. Warm timber, textured surfaces and clear structural lines offer a balance of precision and softness.\n\nThe arrangement of each room considers its purpose, the views beyond it and the relationship between people, furniture and the building."
-      },
-      {
-        "_rowId": "row-3",
-        "title": "Details",
-        "image": {
-          "mediaId": "media_archline_service_form",
-          "alt": "Close-up of a sculptural leather seat"
-        },
-        "description": "Careful junctions and well-proportioned elements give the interior its sense of ease. Light is placed to reveal texture, and furnishings leave space for the architecture to breathe.\n\nThese smaller decisions support a coherent whole: a place with enough character to feel memorable, and enough simplicity to welcome everyday life."
-      }
-    ],
     "gallery": [
       {
         "_rowId": "row-1",
+        "caption": "Light and material",
         "image": {
-          "mediaId": "media_archline_terra",
-          "alt": "Minimal architectural spaces and tactile surfaces"
-        },
-        "caption": "Light and material"
+          "alt": "Minimal architectural spaces and tactile surfaces",
+          "mediaId": "media_archline_terra"
+        }
       },
       {
         "_rowId": "row-2",
+        "caption": "A quiet composition",
         "image": {
-          "mediaId": "media_archline_interior",
-          "alt": "Open timber interior facing a planted courtyard"
-        },
-        "caption": "A quiet composition"
+          "alt": "Open timber interior facing a planted courtyard",
+          "mediaId": "media_archline_interior"
+        }
       },
       {
         "_rowId": "row-3",
+        "caption": "Considered details",
         "image": {
-          "mediaId": "media_archline_service_form",
-          "alt": "Close-up of a sculptural leather seat"
-        },
-        "caption": "Considered details"
+          "alt": "Close-up of a sculptural leather seat",
+          "mediaId": "media_archline_service_form"
+        }
       }
-    ]
+    ],
+    "image": {
+      "alt": "Minimal architectural spaces and tactile surfaces",
+      "mediaId": "media_archline_terra"
+    },
+    "metadata": [
+      {
+        "_rowId": "row-1",
+        "label": "Client",
+        "value": "Private client"
+      },
+      {
+        "_rowId": "row-2",
+        "label": "Collection",
+        "value": "Architecture & interiors"
+      }
+    ],
+    "title": "Terra Nova Residence",
+    "year": "2024–2028"
   }
 }

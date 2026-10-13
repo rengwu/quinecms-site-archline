@@ -3,21 +3,21 @@
   "id": "media_archline_testimonial_2",
   "name": "Testimonial 2",
   "original": {
-    "key": "archline/v1/testimonial-2.webp",
-    "url": "/archline/v1/testimonial-2.webp",
-    "mime": "image/webp",
     "bytes": 85758,
-    "width": 1170,
-    "height": 937
+    "height": 937,
+    "key": "archline/v1/testimonial-2.webp",
+    "mime": "image/webp",
+    "url": "/archline/v1/testimonial-2.webp",
+    "width": 1170
   },
   "variants": [
     {
-      "key": "archline/v1/testimonial-2-800.webp",
-      "url": "/archline/v1/testimonial-2-800.webp",
-      "mime": "image/webp",
       "bytes": 38800,
-      "width": 800,
-      "height": 641
+      "height": 641,
+      "key": "archline/v1/testimonial-2-800.webp",
+      "mime": "image/webp",
+      "url": "/archline/v1/testimonial-2-800.webp",
+      "width": 800
     }
   ]
 }

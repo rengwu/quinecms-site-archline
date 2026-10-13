@@ -3,21 +3,21 @@
   "id": "media_archline_process_studio",
   "name": "Process Studio",
   "original": {
-    "key": "archline/v1/process-studio.webp",
-    "url": "/archline/v1/process-studio.webp",
-    "mime": "image/webp",
     "bytes": 91922,
-    "width": 800,
-    "height": 1200
+    "height": 1200,
+    "key": "archline/v1/process-studio.webp",
+    "mime": "image/webp",
+    "url": "/archline/v1/process-studio.webp",
+    "width": 800
   },
   "variants": [
     {
-      "key": "archline/v1/process-studio-800.webp",
-      "url": "/archline/v1/process-studio-800.webp",
-      "mime": "image/webp",
       "bytes": 46248,
-      "width": 533,
-      "height": 800
+      "height": 800,
+      "key": "archline/v1/process-studio-800.webp",
+      "mime": "image/webp",
+      "url": "/archline/v1/process-studio-800.webp",
+      "width": 533
     }
   ]
 }

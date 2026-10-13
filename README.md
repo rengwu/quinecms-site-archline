@@ -55,6 +55,11 @@ Git SHA in package.json on a branch, run `pnpm install`, commit the lockfile, an
 run `pnpm verify` plus desktop/mobile/editor checks. Migrate content or original
 extensions manually if needed. Installed library changes go upstream.
 
+Place the reviewed upgrade commit on the draft branch before connecting its matching
+editor. Publish that exact upgraded draft, or fast-forward both branches to the same
+reviewed commit when deploying through Git. Do not leave the connected draft on old
+pins while building the editor from newer ones.
+
 The old editor blocks Save and Publish after engine/library/config/source changes;
 unsaved work is retained. Open an editor built from the matching branch to continue.
 To roll back, restore the previous pins and lockfile and any content snapshot already

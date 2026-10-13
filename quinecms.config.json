@@ -1,0 +1,4 @@
+{
+  "libraries": ["quinecms-library"],
+  "initialLayout": { "id": "archline", "version": 1 }
+}

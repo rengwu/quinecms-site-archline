@@ -1,0 +1,22 @@
+{
+  "name": "quinecms-site-archline",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.34.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "quinecms dev",
+    "build": "quinecms build",
+    "validate:content": "quinecms validate",
+    "check": "quinecms check",
+    "preview": "quinecms preview",
+    "check:build": "quinecms check-build",
+    "verify": "pnpm validate:content && pnpm check && pnpm build && pnpm check:build"
+  },
+  "dependencies": {
+    "quinecms": "git+https://github.com/rengwu/quinecms.git#5612c38a7f9ccc4c29a44f1f167a57acbc65cf43",
+    "quinecms-library": "git+https://github.com/rengwu/quinecms-library.git#b34392feab4beb82b6c8d6cecf0dc33905c881b2"
+  }
+}

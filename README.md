@@ -34,6 +34,53 @@ Do not expose `.env`, source, node_modules or the build workspace. The repositor
 provider and hosting provider can differ. Publishing a Git snapshot does not itself
 configure or confirm hosting.
 
+## Deploy this pilot to Netlify
+
+This is the maintainer's chosen pilot host; the engine still produces the same
+portable static output for any host. The following setup has not yet been tested
+on Netlify.
+
+1. In Netlify, add a project from GitHub and select
+   `rengwu/quinecms-site-archline`.
+2. Set the production branch to `main`, leave the base/package directories empty
+   (repository root), set the build command to `pnpm build`, and set the publish
+   directory to `dist`. These are ordinary
+   [Netlify build settings](https://docs.netlify.com/build/configure-builds/overview/).
+3. Before building, add these environment variables in Netlify. If scope/context
+   controls are offered, include **Builds** and **Production**. Store the two admin
+   values as secrets; they become the deployed `/admin/` login.
+
+| Variable | Value |
+| --- | --- |
+| `NODE_VERSION` | `22.19.0` (the locally verified version) |
+| `ADMIN_EMAIL` | Your chosen admin email |
+| `ADMIN_PASSWORD` | Your own long, unique password |
+| `PUBLIC_GIT_PROVIDER` | `github` |
+| `PUBLIC_GIT_NAMESPACE` | `rengwu` |
+| `PUBLIC_GIT_REPO` | `quinecms-site-archline` |
+| `PUBLIC_DRAFT_BRANCH` | `draft` |
+| `PUBLIC_PUBLISH_BRANCH` | `main` |
+
+Netlify reads `pnpm-lock.yaml` and the existing `packageManager` field to install
+with pnpm 10.34.1 before running the build; no extra install command is needed.
+See [dependency settings](https://docs.netlify.com/build/configure-builds/manage-dependencies/)
+and [build variables](https://docs.netlify.com/build/configure-builds/environment-variables/).
+The engine and library are public dependencies, so their installation needs no
+GitHub token. Authorizing edits from the admin is a separate GitHub connection.
+
+4. Deploy, then check `/`, open a project detail page, and unlock `/admin/` with
+   the credentials you configured. The production build does not use the fixed
+   development login. Disable branch/PR preview builds for this first setup;
+   enabling them later needs suitable build credentials for those contexts.
+
+With Git-linked deployment, a QuineCMS Publish that updates `main` triggers the
+next Netlify build. Save alone updates `draft`. Missing `ADMIN_EMAIL` or
+`ADMIN_PASSWORD` fails the build; add both and retry.
+
+If you prefer a manual file upload, build locally using the production `.env`
+setup above and upload only the resulting `dist/` folder. That workflow needs
+a fresh local build and upload after later content publication.
+
 ## What clients edit
 
 - **Pages:** homepage and project-index sections; generic project detail composition.

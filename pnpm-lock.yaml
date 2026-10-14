@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       quinecms:
-        specifier: git+https://github.com/rengwu/quinecms.git#d830c7b2467b44174208fa47d17900ac4c6f5b06
-        version: https://codeload.github.com/rengwu/quinecms/tar.gz/d830c7b2467b44174208fa47d17900ac4c6f5b06(@date-fns/tz@1.5.0)(@emnapi/runtime@1.11.3)(date-fns@4.4.0)(esbuild@0.28.2)(prettier@3.9.10)(yaml@2.9.1)(yjs@13.6.33)(zod@4.6.7)
+        specifier: git+https://github.com/rengwu/quinecms.git#e1004efcfec9b5d6859120cb4d66343ddddbfe3b
+        version: https://codeload.github.com/rengwu/quinecms/tar.gz/e1004efcfec9b5d6859120cb4d66343ddddbfe3b(@date-fns/tz@1.5.0)(@emnapi/runtime@1.11.3)(date-fns@4.4.0)(esbuild@0.28.2)(prettier@3.9.10)(yaml@2.9.1)(yjs@13.6.33)(zod@4.6.7)
       quinecms-library:
         specifier: git+https://github.com/rengwu/quinecms-library.git#b34392feab4beb82b6c8d6cecf0dc33905c881b2
-        version: https://codeload.github.com/rengwu/quinecms-library/tar.gz/b34392feab4beb82b6c8d6cecf0dc33905c881b2(quinecms@https://codeload.github.com/rengwu/quinecms/tar.gz/d830c7b2467b44174208fa47d17900ac4c6f5b06(@date-fns/tz@1.5.0)(@emnapi/runtime@1.11.3)(date-fns@4.4.0)(esbuild@0.28.2)(prettier@3.9.10)(yaml@2.9.1)(yjs@13.6.33)(zod@4.6.7))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+        version: https://codeload.github.com/rengwu/quinecms-library/tar.gz/b34392feab4beb82b6c8d6cecf0dc33905c881b2(quinecms@https://codeload.github.com/rengwu/quinecms/tar.gz/e1004efcfec9b5d6859120cb4d66343ddddbfe3b(@date-fns/tz@1.5.0)(@emnapi/runtime@1.11.3)(date-fns@4.4.0)(esbuild@0.28.2)(prettier@3.9.10)(yaml@2.9.1)(yjs@13.6.33)(zod@4.6.7))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
 
 packages:
 
@@ -2289,8 +2289,8 @@ packages:
       react: ^19.3.0
       react-dom: ^19.3.0
 
-  quinecms@https://codeload.github.com/rengwu/quinecms/tar.gz/d830c7b2467b44174208fa47d17900ac4c6f5b06:
-    resolution: {gitHosted: true, integrity: sha512-CUTr3JRSOH0SKw3kRwHtYUNpwOgvW6M3l6cHMwaM+I7CHaNHlw33qTht3hDDK8SXCjwSnLtOkkw9LYqVL2WrNw==, tarball: https://codeload.github.com/rengwu/quinecms/tar.gz/d830c7b2467b44174208fa47d17900ac4c6f5b06}
+  quinecms@https://codeload.github.com/rengwu/quinecms/tar.gz/e1004efcfec9b5d6859120cb4d66343ddddbfe3b:
+    resolution: {gitHosted: true, integrity: sha512-frJTHABAdHD016mpTejQOIjkqCCoIYkF1+jZ9bTasNY3rd79QLvIVZbCaVwnO+mzhddfwfW3YOdq2xgS3FGHcg==, tarball: https://codeload.github.com/rengwu/quinecms/tar.gz/e1004efcfec9b5d6859120cb4d66343ddddbfe3b}
     version: 0.2.0
     engines: {node: '>=22.12.0'}
     hasBin: true
@@ -5269,13 +5269,13 @@ snapshots:
 
   property-information@7.2.0: {}
 
-  quinecms-library@https://codeload.github.com/rengwu/quinecms-library/tar.gz/b34392feab4beb82b6c8d6cecf0dc33905c881b2(quinecms@https://codeload.github.com/rengwu/quinecms/tar.gz/d830c7b2467b44174208fa47d17900ac4c6f5b06(@date-fns/tz@1.5.0)(@emnapi/runtime@1.11.3)(date-fns@4.4.0)(esbuild@0.28.2)(prettier@3.9.10)(yaml@2.9.1)(yjs@13.6.33)(zod@4.6.7))(react-dom@19.3.0(react@19.3.0))(react@19.3.0):
+  quinecms-library@https://codeload.github.com/rengwu/quinecms-library/tar.gz/b34392feab4beb82b6c8d6cecf0dc33905c881b2(quinecms@https://codeload.github.com/rengwu/quinecms/tar.gz/e1004efcfec9b5d6859120cb4d66343ddddbfe3b(@date-fns/tz@1.5.0)(@emnapi/runtime@1.11.3)(date-fns@4.4.0)(esbuild@0.28.2)(prettier@3.9.10)(yaml@2.9.1)(yjs@13.6.33)(zod@4.6.7))(react-dom@19.3.0(react@19.3.0))(react@19.3.0):
     dependencies:
-      quinecms: https://codeload.github.com/rengwu/quinecms/tar.gz/d830c7b2467b44174208fa47d17900ac4c6f5b06(@date-fns/tz@1.5.0)(@emnapi/runtime@1.11.3)(date-fns@4.4.0)(esbuild@0.28.2)(prettier@3.9.10)(yaml@2.9.1)(yjs@13.6.33)(zod@4.6.7)
+      quinecms: https://codeload.github.com/rengwu/quinecms/tar.gz/e1004efcfec9b5d6859120cb4d66343ddddbfe3b(@date-fns/tz@1.5.0)(@emnapi/runtime@1.11.3)(date-fns@4.4.0)(esbuild@0.28.2)(prettier@3.9.10)(yaml@2.9.1)(yjs@13.6.33)(zod@4.6.7)
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
 
-  quinecms@https://codeload.github.com/rengwu/quinecms/tar.gz/d830c7b2467b44174208fa47d17900ac4c6f5b06(@date-fns/tz@1.5.0)(@emnapi/runtime@1.11.3)(date-fns@4.4.0)(esbuild@0.28.2)(prettier@3.9.10)(yaml@2.9.1)(yjs@13.6.33)(zod@4.6.7):
+  quinecms@https://codeload.github.com/rengwu/quinecms/tar.gz/e1004efcfec9b5d6859120cb4d66343ddddbfe3b(@date-fns/tz@1.5.0)(@emnapi/runtime@1.11.3)(date-fns@4.4.0)(esbuild@0.28.2)(prettier@3.9.10)(yaml@2.9.1)(yjs@13.6.33)(zod@4.6.7):
     dependencies:
       '@astrojs/check': 0.9.10(@emnapi/runtime@1.11.3)(prettier@3.9.10)(typescript@6.0.3)
       '@astrojs/react': 7.0.0(@types/node@22.20.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(tsx@4.23.15)(yaml@2.9.1)

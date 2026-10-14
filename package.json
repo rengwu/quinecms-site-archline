@@ -16,7 +16,7 @@
     "verify": "pnpm validate:content && pnpm check && pnpm build && pnpm check:build"
   },
   "dependencies": {
-    "quinecms": "git+https://github.com/rengwu/quinecms.git#d830c7b2467b44174208fa47d17900ac4c6f5b06",
+    "quinecms": "git+https://github.com/rengwu/quinecms.git#e1004efcfec9b5d6859120cb4d66343ddddbfe3b",
     "quinecms-library": "git+https://github.com/rengwu/quinecms-library.git#b34392feab4beb82b6c8d6cecf0dc33905c881b2"
   }
 }

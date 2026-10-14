@@ -1,0 +1,31 @@
+{
+  "formatVersion": 1,
+  "id": "media_3f870758-c2a6-4f67-984f-768d46a47cc6",
+  "name": "ChatGPT Image Aug 14, 2026, 01_56_42 PM.png",
+  "original": {
+    "bytes": 1920359,
+    "height": 1122,
+    "key": "media_3f870758-c2a6-4f67-984f-768d46a47cc6/original.png",
+    "mime": "image/png",
+    "url": "https://pub-bdb940f56ea345f2b8e27dc935ce9f24.r2.dev/media_3f870758-c2a6-4f67-984f-768d46a47cc6/original.png",
+    "width": 1402
+  },
+  "variants": [
+    {
+      "bytes": 21498,
+      "height": 384,
+      "key": "media_3f870758-c2a6-4f67-984f-768d46a47cc6/480.webp",
+      "mime": "image/webp",
+      "url": "https://pub-bdb940f56ea345f2b8e27dc935ce9f24.r2.dev/media_3f870758-c2a6-4f67-984f-768d46a47cc6/480.webp",
+      "width": 480
+    },
+    {
+      "bytes": 52036,
+      "height": 768,
+      "key": "media_3f870758-c2a6-4f67-984f-768d46a47cc6/960.webp",
+      "mime": "image/webp",
+      "url": "https://pub-bdb940f56ea345f2b8e27dc935ce9f24.r2.dev/media_3f870758-c2a6-4f67-984f-768d46a47cc6/960.webp",
+      "width": 960
+    }
+  ]
+}

@@ -3,7 +3,7 @@
     {
       "id": "archline-hero",
       "props": {
-        "actionLabel": "Explore our projects",
+        "actionLabel": "Learn More",
         "actionURL": "/projects",
         "anchor": "top",
         "description": "Despite being lightweight, statically-built, and database-free, QuineCMS sites feature a fully-functional backend portal.",

@@ -6,8 +6,8 @@
         "actionLabel": "Explore our projects",
         "actionURL": "/projects",
         "anchor": "top",
-        "description": "Thoughtful architecture begins with the way a place feels. We bring light, texture and proportion together to create spaces with a lasting sense of calm.",
-        "heading": "Harmony shaped by light, material, and space.",
+        "description": "Despite being lightweight, statically-built, and database-free, QuineCMS sites feature a fully-functional backend portal.",
+        "heading": "Run a CMS-powered site without backend costs.",
         "image": {
           "alt": "Modern stone and timber residence under a clear blue sky",
           "mediaId": "media_archline_hero"
